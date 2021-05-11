@@ -11,4 +11,4 @@ mongoose.connect('mongodb+srv://jbh730:qudgus@88@cluster0.bugja.mongodb.net/myFi
 // app.get('/', (req, res) => res.setEncoding('Hello World!'))
 app.get('/', (req, res) => res.send('Hello World!'))
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!!!!!`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!!`))
